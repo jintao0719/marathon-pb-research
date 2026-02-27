@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /api/
+
+# 搜索引擎爬虫
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 1
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# 禁止爬虫
+User-agent: *
+Disallow: /*.json$
+Disallow: /*?*
+
+Sitemap: https://marathon-run-website.com/sitemap.xml

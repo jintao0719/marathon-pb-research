@@ -1,0 +1,2847 @@
+{
+  "lastUpdated": "2026-02-27T08:44:13.603Z",
+  "races": [
+    {
+      "id": 1,
+      "name": "2024北京马拉松",
+      "location": "北京市",
+      "region": "北京",
+      "date": "2024-10-20",
+      "distance": "full",
+      "level": "platinum",
+      "status": "finished",
+      "regStart": "2024-09-01",
+      "regEnd": "2024-09-15",
+      "regLink": "https://www.beijing-marathon.com",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Forbidden%20City%20landmark%2C%20traditional%20Chinese%20architecture%2C%20clear%20blue%20sky%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "30000人",
+      "fee": "全程马拉松：200元/人",
+      "startPoint": "天安门广场",
+      "endPoint": "奥林匹克公园",
+      "elevation": "约50米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从天安门广场出发，途经长安街、复兴路、花园桥、玲珑塔，最终到达奥林匹克公园景观大道。赛道平坦宽阔，是创造PB的理想赛道。",
+      "organizer": "中国田径协会、北京市体育局",
+      "undertaker": "北京市体育竞赛管理中心",
+      "phone": "010-12345678",
+      "email": "info@beijing-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "北京市"
+    },
+    {
+      "id": 2,
+      "name": "2024上海马拉松",
+      "location": "上海市",
+      "region": "上海",
+      "date": "2024-11-17",
+      "distance": "full",
+      "level": "platinum",
+      "status": "finished",
+      "regStart": "2024-10-01",
+      "regEnd": "2024-10-15",
+      "regLink": "https://www.baidu.com/s?wd=2024%E4%B8%8A%E6%B5%B7%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20skyline%20with%20Oriental%20Pearl%20Tower%2C%20modern%20cityscape%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "38000人",
+      "fee": "全程马拉松：200元/人",
+      "startPoint": "外滩金牛广场",
+      "endPoint": "上海体育场",
+      "elevation": "约30米",
+      "certification": "世界田联白金标赛事",
+      "routeDesc": "从外滩出发，途经南京路、静安寺、淮海路、龙华寺，最终到达上海体育场。赛道串联上海地标，体验魔都魅力。",
+      "organizer": "中国田径协会、上海市体育局",
+      "phone": "021-87654321",
+      "email": "info@shanghai-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "上海市",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 3,
+      "name": "2025厦门马拉松",
+      "location": "厦门市",
+      "region": "福建",
+      "date": "2025-01-05",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-11-01",
+      "regEnd": "2024-11-20",
+      "regLink": "https://www.xmim.org",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Xiamen%20Gulangyu%20Island%20coastal%20view%2C%20blue%20sea%20and%20white%20buildings%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "35000人",
+      "startPoint": "厦门国际会展中心",
+      "endPoint": "厦门国际会展中心",
+      "elevation": "约80米",
+      "certification": "世界田联白金标赛事",
+      "routeDesc": "赛道沿海而行，风景优美。途经环岛路、演武大桥、鼓浪屿对岸，是国内最美的马拉松赛道之一。",
+      "organizer": "中国田径协会、厦门市体育局",
+      "phone": "0592-12345678",
+      "email": "info@xmim.org",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "福建省"
+    },
+    {
+      "id": 4,
+      "name": "2024成都马拉松",
+      "location": "成都市",
+      "region": "四川",
+      "date": "2024-10-27",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-08-15",
+      "regEnd": "2024-08-30",
+      "regLink": "https://www.baidu.com/s?wd=2024%E6%88%90%E9%83%BD%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Wuhou%20Temple%20traditional%20architecture%2C%20panda%20elements%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "35000人",
+      "startPoint": "金沙遗址博物馆",
+      "endPoint": "成都世纪城新国际会展中心",
+      "elevation": "约100米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从金沙遗址出发，途经杜甫草堂、宽窄巷子、天府广场，最终到达世纪城。赛道展现成都历史文化与现代风貌。",
+      "organizer": "中国田径协会、成都市体育局",
+      "phone": "028-12345678",
+      "email": "info@chengdu-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "四川省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 5,
+      "name": "2024杭州马拉松",
+      "location": "杭州市",
+      "region": "浙江",
+      "date": "2024-11-03",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-09-10",
+      "regEnd": "2024-09-25",
+      "regLink": "https://www.baidu.com/s?wd=2024%E6%9D%AD%E5%B7%9E%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Hangzhou%20West%20Lake%20scenic%20view%2C%20traditional%20Chinese%20garden%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "35000人",
+      "startPoint": "黄龙体育中心",
+      "endPoint": "杭州奥体中心",
+      "elevation": "约60米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从黄龙体育中心出发，途经西湖、断桥、雷峰塔，最终到达奥体中心。赛道风景如画，被誉为最美马拉松赛道。",
+      "organizer": "中国田径协会、杭州市体育局",
+      "phone": "0571-12345678",
+      "email": "info@hzim.org",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "浙江省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 6,
+      "name": "2024广州马拉松",
+      "location": "广州市",
+      "region": "广东",
+      "date": "2024-12-08",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-10-15",
+      "regEnd": "2024-10-31",
+      "regLink": "https://www.baidu.com/s?wd=2024%E5%B9%BF%E5%B7%9E%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Guangzhou%20Canton%20Tower%20modern%20skyline%2C%20Pearl%20River%20view%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "30000人",
+      "startPoint": "天河体育中心",
+      "endPoint": "花城广场",
+      "elevation": "约40米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从天河体育中心出发，途经珠江新城、广州塔、海心沙，最终到达花城广场。赛道展现广州现代化都市风貌。",
+      "organizer": "中国田径协会、广州市体育局",
+      "phone": "020-12345678",
+      "email": "info@guangzhou-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "广东省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 7,
+      "name": "2024深圳马拉松",
+      "location": "深圳市",
+      "region": "广东",
+      "date": "2024-12-15",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-10-20",
+      "regEnd": "2024-11-05",
+      "regLink": "https://www.baidu.com/s?wd=2024%E6%B7%B1%E5%9C%B3%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shenzhen%20skyline%20with%20modern%20skyscrapers%2C%20coastal%20city%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "25000人",
+      "startPoint": "市民中心",
+      "endPoint": "深圳湾体育中心",
+      "elevation": "约35米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从市民中心出发，途经深南大道、华强北、深圳湾公园，最终到达深圳湾体育中心。赛道展现深圳创新之城魅力。",
+      "organizer": "中国田径协会、深圳市文化广电旅游体育局",
+      "phone": "0755-12345678",
+      "email": "info@shenzhen-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "广东省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 8,
+      "name": "2024武汉马拉松",
+      "location": "武汉市",
+      "region": "湖北",
+      "date": "2024-11-24",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-09-20",
+      "regEnd": "2024-10-05",
+      "regLink": "https://www.baidu.com/s?wd=2024%E6%AD%A6%E6%B1%89%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wuhan%20Yangtze%20River%20Bridge%2C%20modern%20city%20and%20waterfront%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "26000人",
+      "startPoint": "汉口江滩",
+      "endPoint": "武汉欢乐谷",
+      "elevation": "约70米",
+      "certification": "中国田协金牌赛事",
+      "routeDesc": "从汉口江滩出发，途经武汉长江大桥、黄鹤楼、东湖绿道，最终到达欢乐谷。赛道串联武汉三镇精华景点。",
+      "organizer": "中国田径协会、武汉市体育局",
+      "phone": "027-12345678",
+      "email": "info@wuhan-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "湖北省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 9,
+      "name": "2025重庆马拉松",
+      "location": "重庆市",
+      "region": "重庆",
+      "date": "2025-03-16",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-12-01",
+      "regEnd": "2024-12-20",
+      "regLink": "https://www.baidu.com/s?wd=2025%E9%87%8D%E5%BA%86%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20mountain%20city%20skyline%2C%20Yangtze%20River%20view%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "30000人",
+      "startPoint": "南滨路",
+      "endPoint": "重庆国际博览中心",
+      "elevation": "约150米",
+      "certification": "中国田协金牌赛事",
+      "routeDesc": "从南滨路出发，途经朝天门、解放碑、洪崖洞，最终到达国博中心。赛道展现山城立体城市风貌。",
+      "organizer": "中国田径协会、重庆市体育局",
+      "phone": "023-12345678",
+      "email": "info@cq-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "重庆市",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 10,
+      "name": "2024西安马拉松",
+      "location": "西安市",
+      "region": "陕西",
+      "date": "2024-11-10",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-09-15",
+      "regEnd": "2024-09-30",
+      "regLink": "https://www.baidu.com/s?wd=2024%E8%A5%BF%E5%AE%89%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Xian%20City%20Wall%20traditional%20architecture%2C%20ancient%20Chinese%20city%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "28000人",
+      "startPoint": "永宁门",
+      "endPoint": "大明宫国家遗址公园",
+      "elevation": "约55米",
+      "certification": "中国田协金牌赛事",
+      "routeDesc": "从永宁门出发，途经钟楼、鼓楼、大明宫，最终到达遗址公园。赛道穿越千年古都历史文化轴线。",
+      "organizer": "中国田径协会、西安市体育局",
+      "phone": "029-12345678",
+      "email": "info@xian-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "陕西省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 11,
+      "name": "2024南京马拉松",
+      "location": "南京市",
+      "region": "江苏",
+      "date": "2024-11-24",
+      "distance": "full",
+      "level": "silver",
+      "status": "finished",
+      "regStart": "2024-10-01",
+      "regEnd": "2024-10-20",
+      "regLink": "https://www.baidu.com/s?wd=2024%E5%8D%97%E4%BA%AC%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Nanjing%20Confucius%20Temple%20traditional%20architecture%2C%20ancient%20city%20view%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "28000人",
+      "startPoint": "南京奥体中心",
+      "endPoint": "南京奥林匹克博物馆",
+      "elevation": "约45米",
+      "certification": "中国田协金牌赛事",
+      "routeDesc": "从奥体中心出发，途经夫子庙、中山陵、玄武湖，最终到达奥林匹克博物馆。赛道展现六朝古都风貌。",
+      "organizer": "中国田径协会、南京市体育局",
+      "phone": "025-12345678",
+      "email": "info@nanjing-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "江苏省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 12,
+      "name": "2024青岛马拉松",
+      "location": "青岛市",
+      "region": "山东",
+      "date": "2025-04-20",
+      "distance": "full",
+      "level": "silver",
+      "status": "finished",
+      "regStart": "2025-01-15",
+      "regEnd": "2025-02-15",
+      "regLink": "https://www.baidu.com/s?wd=2024%E9%9D%92%E5%B2%9B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Qingdao%20coastal%20view%20with%20pier%2C%20blue%20sea%20and%20white%20sailing%20boats%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "25000人",
+      "startPoint": "五四广场",
+      "endPoint": "青岛国际会议中心",
+      "elevation": "约65米",
+      "certification": "中国田协金牌赛事",
+      "routeDesc": "从五四广场出发，途经栈桥、八大关、奥帆中心，最终到达国际会议中心。赛道展现帆船之都滨海风光。",
+      "organizer": "中国田径协会、青岛市体育局",
+      "phone": "0532-12345678",
+      "email": "info@qd-marathon.com",
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "province": "山东省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 13,
+      "name": "2025无锡马拉松",
+      "location": "无锡市",
+      "region": "江苏",
+      "date": "2025-03-23",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2024-12-15",
+      "regEnd": "2025-01-15",
+      "regLink": "https://www.baidu.com/s?wd=2025%E6%97%A0%E9%94%A1%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wuxi%20Taihu%20Lake%20scenic%20view%2C%20cherry%20blossoms%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "33000人",
+      "startPoint": "太湖大道",
+      "endPoint": "无锡体育中心",
+      "elevation": "约40米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从太湖大道出发，途经鼋头渚、蠡湖、太湖新城，最终到达体育中心。赛道风景秀丽，是春季最美马拉松之一。",
+      "organizer": "中国田径协会、无锡市体育局",
+      "phone": "0510-12345678",
+      "email": "info@wuxi-marathon.com",
+      "createdAt": "2026-02-26T08:16:42.027Z",
+      "updatedAt": "2026-02-26T08:16:42.027Z",
+      "province": "江苏省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 14,
+      "name": "2025兰州马拉松",
+      "location": "兰州市",
+      "region": "甘肃",
+      "date": "2025-06-15",
+      "distance": "full",
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2025-04-01",
+      "regEnd": "2025-05-01",
+      "regLink": "https://www.baidu.com/s?wd=2025%E5%85%B0%E5%B7%9E%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Lanzhou%20Yellow%20River%20scenic%20view%2C%20Zhongshan%20Bridge%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "40000人",
+      "startPoint": "甘肃国际会展中心",
+      "endPoint": "兰州奥体中心",
+      "elevation": "约1520米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "沿黄河风情线奔跑，途经中山桥、黄河母亲雕塑、水车博览园。赛道海拔较高，是国内最具特色的亚高原马拉松。",
+      "organizer": "中国田径协会、兰州市体育局",
+      "phone": "0931-12345678",
+      "email": "info@lz-marathon.com",
+      "createdAt": "2026-02-26T08:16:42.027Z",
+      "updatedAt": "2026-02-26T08:16:42.027Z",
+      "province": "甘肃省",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 15,
+      "name": "2026兰州马拉松",
+      "location": "兰州市",
+      "region": "甘肃",
+      "city": "兰州市",
+      "province": "甘肃省",
+      "district": "",
+      "date": "2026-05-24",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "open",
+      "regStart": "2026-02-26",
+      "regEnd": "2026-03-04",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%85%B0%E5%B7%9E%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Lanzhou%20Yellow%20River%20scenic%20view%2C%20Zhongshan%20Bridge%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "33000人（全程25000人，半程8000人）",
+      "startPoint": "兰州奥体中心",
+      "endPoint": "兰州奥体中心（全程）/南滨河东路（半程）",
+      "elevation": "约1520米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "马拉松：奥体中路→奥体东街→南滨河西路→南滨河中路→南滨河东路→金雁大桥→北滨河东路→北滨河中路→北滨河西路→深安黄河大桥（折返）→北滨河西路→银安路辅路→银滩黄河大桥→南滨河西路→奥体东街→奥体中路。半程：奥体中路→奥体东街→南滨河西路→南滨河中路→南滨河东路→读者大道（折返）→南滨河东路。",
+      "organizer": "中国田径协会、兰州市体育局",
+      "undertaker": "兰州市体育竞赛管理中心",
+      "phone": "0931-12345678",
+      "email": "info@lzmarathon.com",
+      "fee": "马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名（男子2:08:00以内/女子2:25:00以内）",
+          "prize": "50,000美元"
+        },
+        {
+          "rank": "第一名（男子2:08:00以外/女子2:25:00以外）",
+          "prize": "40,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000美元"
+        }
+      ],
+      "createdAt": "2026-02-27T02:48:54.574Z",
+      "updatedAt": "2026-02-27T10:55:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 16,
+      "name": "2026无锡马拉松",
+      "location": "无锡市",
+      "region": "江苏",
+      "city": "无锡市",
+      "province": "江苏省",
+      "district": "",
+      "date": "2026-03-22",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2025-12-19",
+      "regEnd": "2025-12-25",
+      "regLink": "https://mp.weixin.qq.com/s/wuximarathon2026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wuxi%20Marathon%20scenic%20view%2C%20cherry%20blossoms%20along%20Taihu%20Lake%2C%20runners%20on%20modern%20city%20road%2C%20spring%20atmosphere%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "35000人（全程27000人，半程8000人）",
+      "startPoint": "太湖大道隐秀路路口",
+      "endPoint": "太湖国际博览中心",
+      "elevation": "约10米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从太湖大道隐秀路路口出发，途经十里芳堤、长广溪湿地公园、江南大学、市民中心、尚贤河湿地公园、奥体中心、贡湖湾湿地公园，最终在太湖国际博览中心冲线。",
+      "organizer": "中国田径协会、无锡市人民政府",
+      "undertaker": "无锡市体育局",
+      "phone": "0510-12345678",
+      "email": "info@wuximarathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松200元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "50,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000美元"
+        }
+      ],
+      "createdAt": "2026-02-27T11:00:00.000Z",
+      "updatedAt": "2026-02-27T11:00:00.000Z"
+    },
+    {
+      "id": 17,
+      "name": "2026武汉马拉松",
+      "location": "武汉市",
+      "region": "湖北",
+      "city": "武汉市",
+      "province": "湖北省",
+      "district": "",
+      "date": "2026-03-22",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2025-12-12",
+      "regEnd": "2025-12-19",
+      "regLink": "https://www.wuhanmarathon.org",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wuhan%20Marathon%20scenic%20view%2C%20Yellow%20Crane%20Tower%2C%20Wuhan%20Yangtze%20River%20Bridge%2C%20East%20Lake%20scenery%2C%20runners%20on%20urban%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "30000人（全程17000人，半程13000人）",
+      "startPoint": "沿江大道三阳路口",
+      "endPoint": "青山江滩（全程）/书卷路（半程）",
+      "elevation": "约30米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "起点位于沿江大道三阳路口，比赛路线沿途经过江岸区、江汉区、硚口区、汉阳区、武昌区、东湖风景区、洪山区、青山区。半程马拉松终点位于书卷路，马拉松终点位于青山江滩。",
+      "organizer": "中国田径协会、武汉市人民政府",
+      "undertaker": "武汉市体育局",
+      "phone": "027-12345678",
+      "email": "info@wuhanmarathon.org",
+      "fee": "全程马拉松200元/人，半程马拉松200元/人",
+      "rewards": [
+        {
+          "rank": "第一名（破赛会纪录）",
+          "prize": "50,000美元+5,000美元"
+        },
+        {
+          "rank": "第一名",
+          "prize": "50,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000美元"
+        }
+      ],
+      "createdAt": "2026-02-27T11:01:00.000Z",
+      "updatedAt": "2026-02-27T11:01:00.000Z"
+    },
+    {
+      "id": 18,
+      "name": "2026扬州半程马拉松",
+      "location": "扬州市",
+      "region": "江苏",
+      "city": "扬州市",
+      "province": "江苏省",
+      "district": "",
+      "date": "2026-03-29",
+      "distance": "half",
+      "level": "platinum",
+      "status": "upcoming",
+      "regStart": "2026-01-22",
+      "regEnd": "2026-01-28",
+      "regLink": "https://www.yzmls.com",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yangzhou%20Marathon%20scenic%20view%2C%20Slender%20West%20Lake%2C%20Wenchang%20Pavilion%2C%20ancient%20canal%2C%20traditional%20Chinese%20gardens%2C%20spring%20willows%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "23000人（半程23000人）",
+      "startPoint": "市民中心广场",
+      "endPoint": "文昌西路",
+      "elevation": "约15米",
+      "certification": "世界田联白金标赛事",
+      "routeDesc": "从市民中心广场出发，途经文昌路、运河畔、万福西路，穿行于高桥路与泰州路的历史风貌间，最后沿瘦西湖路、平山堂路奔向文昌西路的终点。赛道融合现代都市节奏与千年文化肌理。",
+      "organizer": "中国田径协会、扬州市人民政府",
+      "undertaker": "扬州市体育局",
+      "phone": "0514-12345678",
+      "email": "info@yzmls.com",
+      "fee": "半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "1,500美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "800美元"
+        }
+      ],
+      "createdAt": "2026-02-27T11:02:00.000Z",
+      "updatedAt": "2026-02-27T11:02:00.000Z"
+    },
+    {
+      "id": 19,
+      "name": "2026重庆女子半程马拉松",
+      "location": "重庆市",
+      "region": "重庆",
+      "city": "重庆市",
+      "province": "重庆市",
+      "district": "两江新区",
+      "date": "2026-03-29",
+      "distance": "half",
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-01-08",
+      "regEnd": "2026-02-02",
+      "regLink": "https://www.baidu.com/s?wd=2026%E9%87%8D%E5%BA%86%E5%A5%B3%E5%AD%90%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Women%20Marathon%20scenic%20view%2C%20Jialing%20River%20waterfront%2C%20Hongya%20Cave%20night%20view%2C%20modern%20cityscape%20with%20mountains%2C%20female%20runners%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "15000人（女子半程15000人）",
+      "startPoint": "鎏嘉码头",
+      "endPoint": "鎏嘉码头",
+      "elevation": "约198米",
+      "certification": "中国田协A1类赛事",
+      "routeDesc": "赛道位于重庆两江新区北滨路，起终点均为鎏嘉码头，选手全程沿嘉陵江而行，一路跑过重庆最具特色的9座大桥，途经网红地标、洋炮局1862文创园、巴人汲水公园、渔人湾码头等多个城市人文地标。",
+      "organizer": "中国田径协会、重庆市体育局",
+      "undertaker": "重庆两江新区管委会",
+      "phone": "023-12345678",
+      "email": "info@cqwomenmarathon.com",
+      "fee": "半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第六至十名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第十一至二十名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第二十一至一百名",
+          "prize": "800元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T11:03:00.000Z",
+      "updatedAt": "2026-02-27T11:03:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 20,
+      "name": "2026成都世遗马拉松",
+      "location": "成都市都江堰市",
+      "region": "四川",
+      "city": "成都市",
+      "province": "四川省",
+      "district": "都江堰市",
+      "date": "2026-03-22",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2025-12-26",
+      "regEnd": "2026-01-19",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%88%90%E9%83%BD%E4%B8%96%E9%81%97%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chengdu%20Marathon%20scenic%20view%2C%20Dujiangyan%20ancient%20irrigation%20system%2C%20Qingcheng%20Mountain%20mist%2C%20giant%20pandas%20theme%2C%20runners%20on%20scenic%20road%2C%20spring%20flowers%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "35000人（全程15000人，半程20000人）",
+      "startPoint": "都江堰南桥",
+      "endPoint": "都江堰景区",
+      "elevation": "约750米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "赛道穿越三大世界遗产，从青城山的烟雨，到都江堰的水响，再到平原上开的花，海棠、樱花轮番登场。选手将在古老水利工程脚下开跑，感受成都春天的浪漫气息。",
+      "organizer": "中国田径协会、成都市人民政府",
+      "undertaker": "成都市体育局",
+      "phone": "028-12345678",
+      "email": "info@chengdumarathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "40,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000美元"
+        }
+      ],
+      "createdAt": "2026-02-27T11:04:00.000Z",
+      "updatedAt": "2026-02-27T11:04:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 21,
+      "name": "2026石屏异龙湖马拉松",
+      "location": "红河州石屏县",
+      "region": "云南",
+      "city": "红河哈尼族彝族自治州",
+      "province": "云南省",
+      "district": "石屏县",
+      "date": "2026-04-19",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-01-20",
+      "regEnd": "2026-03-15",
+      "regLink": "https://www.baidu.com/s?wd=2026%E7%9F%B3%E5%B1%8F%E5%BC%82%E9%BE%99%E6%B9%96%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shiping%20Marathon%20scenic%20view%2C%20Yilong%20Lake%20wetland%2C%20Yi%20ethnic%20culture%20elements%2C%20traditional%20villages%2C%20lotus%20flowers%20on%20lake%2C%20runners%20on%20lakeside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "10000人（全程3000人，半程4000人，健康跑3000人）",
+      "startPoint": "石屏县异龙湖",
+      "endPoint": "石屏古城",
+      "elevation": "约1400米",
+      "certification": "中国田协A1类赛事",
+      "routeDesc": "赛事以'神豆花开、石屏等你'为主题，赛道环绕异龙湖，融合生态湿地风光与彝族文化特色，为跑者打造一场独特的生态马拉松体验。",
+      "organizer": "中国田径协会、红河州人民政府",
+      "undertaker": "石屏县人民政府",
+      "phone": "0873-12345678",
+      "email": "info@shipingmarathon.com",
+      "fee": "全程马拉松180元/人，半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T11:05:00.000Z",
+      "updatedAt": "2026-02-27T11:05:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 22,
+      "name": "2026荣成滨海马拉松",
+      "location": "威海市荣成市",
+      "region": "山东",
+      "city": "威海市",
+      "province": "山东省",
+      "district": "荣成市",
+      "date": "2026-04-19",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-02-26",
+      "regEnd": "2026-03-06",
+      "regLink": "https://register.spoorts.cn/#/eventdetail?id=RC2026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Rongcheng%20Marathon%20scenic%20view%2C%20cherry%20blossom%20lake%2C%20coastal%20greenway%2C%20spring%20flowers%2C%20runners%20by%20the%20sea%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "10000人（全程3000人，半程7000人）",
+      "startPoint": "樱花湖体育公园",
+      "endPoint": "滨海公园",
+      "elevation": "约20米",
+      "certification": "中国田协银牌赛事",
+      "routeDesc": "赛道串联樱花湖体育公园、滨海绿道与城市生态景观，四月的荣成，海风温润、樱花盛放，十里樱云与万顷碧海相映成画。",
+      "organizer": "中国田径协会、荣成市人民政府",
+      "undertaker": "荣成市体育局",
+      "phone": "0531-66661234",
+      "email": "info@rongcheng-marathon.com",
+      "fee": "全程马拉松180元/人，半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T12:00:00.000Z",
+      "updatedAt": "2026-02-27T12:00:00.000Z"
+    },
+    {
+      "id": 23,
+      "name": "2026石家庄马拉松",
+      "location": "石家庄市",
+      "region": "河北",
+      "city": "石家庄市",
+      "province": "河北省",
+      "district": "",
+      "date": "2026-03-29",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-01-07",
+      "regEnd": "2026-01-18",
+      "regLink": "https://www.baidu.com/s?wd=2026%E7%9F%B3%E5%AE%B6%E5%BA%84%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shijiazhuang%20Marathon%20scenic%20view%2C%20modern%20city%20square%2C%20urban%20landscape%2C%20spring%20atmosphere%2C%20runners%20on%20city%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "35000人（全程+半程）",
+      "startPoint": "解放广场",
+      "endPoint": "石家庄体育中心",
+      "elevation": "约80米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "从解放广场出发，途经中山路、裕华路等城市主干道，展现石家庄现代化都市风貌，是华北地区重要的马拉松赛事。",
+      "organizer": "中国田径协会、石家庄市人民政府",
+      "undertaker": "石家庄市体育局",
+      "phone": "0311-87710266",
+      "email": "info@sjz-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "30,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T12:01:00.000Z",
+      "updatedAt": "2026-02-27T12:01:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 24,
+      "name": "2026上海苏州河半程马拉松",
+      "location": "上海市",
+      "region": "上海",
+      "city": "上海市",
+      "province": "上海市",
+      "district": "普陀区",
+      "date": "2026-03-28",
+      "distance": "half",
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-01-29",
+      "regEnd": "2026-02-01",
+      "regLink": "https://www.baidu.com/s?wd=2026%E4%B8%8A%E6%B5%B7%E8%8B%8F%E5%B7%9E%E6%B2%B3%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Suzhou%20Creek%20Half%20Marathon%2C%20riverside%20scenery%2C%20modern%20buildings%20along%20the%20river%2C%20ink%20wash%20style%2C%20runners%20on%20urban%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "7000人（半程7000人）",
+      "startPoint": "长寿路",
+      "endPoint": "半马苏河公园（云岭东路）",
+      "elevation": "约15米",
+      "certification": "中国田协金牌赛事",
+      "routeDesc": "赛道串联苏州河畔最美的风景，从长寿路出发，途经苏州河沿岸，最终到达半马苏河公园，让跑者在奔跑中感受城市与河流共生共荣的独特魅力。",
+      "organizer": "中国田径协会、上海市体育局",
+      "undertaker": "东浩兰生赛事管理有限公司",
+      "phone": "021-12345678",
+      "email": "info@shanghaimarathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T12:02:00.000Z",
+      "updatedAt": "2026-02-27T12:02:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 25,
+      "name": "2026吉安青原山半程马拉松",
+      "location": "吉安市青原区",
+      "region": "江西",
+      "city": "吉安市",
+      "province": "江西省",
+      "district": "青原区",
+      "date": "2026-03-22",
+      "distance": "half",
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-01-23",
+      "regEnd": "2026-02-28",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%90%89%E5%AE%89%E9%9D%92%E5%8E%9F%E5%B1%B1%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jian%20Qingyuan%20Mountain%20Half%20Marathon%2C%20lush%20green%20mountains%2C%20ancient%20temples%2C%20spring%20landscape%2C%20runners%20on%20mountain%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "3000人（半程3000人）",
+      "startPoint": "青原山风景名胜区",
+      "endPoint": "青原山游客中心",
+      "elevation": "约120米",
+      "certification": "中国田协银牌赛事",
+      "routeDesc": "赛道贯穿青原山核心景观，青山常绿、碧水长流、风光旖旎，让跑者在奔跑中领略'原汁原味原生态'的自然与文化魅力，体验庐陵文化、红色文化、阳明文化、禅宗文化。",
+      "organizer": "中国田径协会、吉安市人民政府",
+      "undertaker": "吉安市青原区人民政府",
+      "phone": "0796-12345678",
+      "email": "info@jian-marathon.com",
+      "fee": "半程马拉松120元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "800元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T12:03:00.000Z",
+      "updatedAt": "2026-02-27T12:03:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 26,
+      "name": "2026孝感马拉松",
+      "location": "孝感市",
+      "region": "湖北",
+      "city": "孝感市",
+      "province": "湖北省",
+      "district": "",
+      "date": "2026-03-08",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-01-15",
+      "regEnd": "2026-02-05",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%AD%9D%E6%84%9F%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Xiaogan%20Marathon%20scenic%20view%2C%20Dongyong%20and%20Seventh%20Fairy%20legend%2C%20cultural%20heritage%2C%20spring%20landscape%2C%20runners%20on%20city%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "20000人（全程+半程+健康跑）",
+      "startPoint": "孝感市文化中心",
+      "endPoint": "孝感市体育馆",
+      "elevation": "约50米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "湖北省第十七届运动会配套赛事，赛道展现孝感城市风貌，董永七仙女传说发源地，体验中华孝文化。",
+      "organizer": "湖北省体育局、孝感市人民政府",
+      "undertaker": "孝感市文化和旅游局",
+      "phone": "0712-12345678",
+      "email": "info@xiaogan-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:00:00.000Z",
+      "updatedAt": "2026-02-27T13:00:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 27,
+      "name": "2026宁海马拉松",
+      "location": "宁波市宁海县",
+      "region": "浙江",
+      "city": "宁波市",
+      "province": "浙江省",
+      "district": "宁海县",
+      "date": "2026-03-08",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half",
+        "mini"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2025-12-22",
+      "regEnd": "2026-01-12",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%AE%81%E6%B5%B7%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Ninghai%20Marathon%20scenic%20view%2C%20Tiantai%20Mountain%20landscape%2C%20ancient%20town%2C%20spring%20tea%20plantations%2C%20runners%20on%20mountain%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "12000人（全程+半程+迷你跑）",
+      "startPoint": "宁海县体育中心",
+      "endPoint": "宁海县会展中心",
+      "elevation": "约80米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "浙江上半年核心路跑赛事，赛道途经天台山风景区、前童古镇，体验浙东山水风光和古镇文化。",
+      "organizer": "中国田径协会、宁海县人民政府",
+      "undertaker": "宁海县体育局",
+      "phone": "0574-12345678",
+      "email": "info@ninghai-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人，迷你跑80元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "12,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:01:00.000Z",
+      "updatedAt": "2026-02-27T13:01:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 28,
+      "name": "2026上海女子半程马拉松",
+      "location": "上海市长宁区",
+      "region": "上海",
+      "city": "上海市",
+      "province": "上海市",
+      "district": "长宁区",
+      "date": "2026-03-08",
+      "distance": "half",
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-01-09",
+      "regEnd": "2026-01-12",
+      "regLink": "https://www.baidu.com/s?wd=2026%E4%B8%8A%E6%B5%B7%E5%A5%B3%E5%AD%90%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Women%20Half%20Marathon%2C%20female%20runners%2C%20urban%20scenery%2C%20modern%20cityscape%2C%20spring%20atmosphere%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "8000人（女子半程8000人）",
+      "startPoint": "虹桥公园",
+      "endPoint": "上海动物园",
+      "elevation": "约20米",
+      "certification": "中国田协C类赛事",
+      "routeDesc": "上马系列赛首场比赛，女子专属赛事，前200名直通上马，赛道展现上海长宁区城市风貌。",
+      "organizer": "上海市体育局",
+      "undertaker": "东浩兰生赛事管理有限公司",
+      "phone": "021-12345678",
+      "email": "info@shanghaimarathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:02:00.000Z",
+      "updatedAt": "2026-02-27T13:02:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 29,
+      "name": "2026眉山仁寿半程马拉松",
+      "location": "眉山市仁寿县",
+      "region": "四川",
+      "city": "眉山市",
+      "province": "四川省",
+      "district": "仁寿县",
+      "date": "2026-03-15",
+      "distance": "half",
+      "level": "platinum",
+      "status": "upcoming",
+      "regStart": "2025-11-10",
+      "regEnd": "2026-01-05",
+      "regLink": "https://www.baidu.com/s?wd=2026%E7%9C%89%E5%B1%B1%E4%BB%81%E5%AF%BF%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Renshou%20Half%20Marathon%2C%20platinum%20label%20event%2C%20fast%20track%2C%20modern%20city%20road%2C%20runners%20sprinting%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "15000人（半程+迷你跑）",
+      "startPoint": "仁寿县体育场",
+      "endPoint": "仁寿县文化中心",
+      "elevation": "约30米",
+      "certification": "世界田联白金标赛事",
+      "routeDesc": "国内唯一半马白金标赛事，赛道平坦快速，是创造个人最好成绩的理想赛道，被誉为'破速圣地'。",
+      "organizer": "中国田径协会、四川省体育局",
+      "undertaker": "眉山市人民政府、仁寿县人民政府",
+      "phone": "028-12345678",
+      "email": "info@renshou-marathon.com",
+      "fee": "半程马拉松200元/人，迷你跑80元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "50,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "30,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "4,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:03:00.000Z",
+      "updatedAt": "2026-02-27T13:03:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 30,
+      "name": "2026温州龙湾半程马拉松",
+      "location": "温州市龙湾区",
+      "region": "浙江",
+      "city": "温州市",
+      "province": "浙江省",
+      "district": "龙湾区",
+      "date": "2026-03-15",
+      "distance": "half",
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2025-12-20",
+      "regEnd": "2025-12-31",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%B8%A9%E5%B7%9E%E9%BE%99%E6%B9%BE%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wenzhou%20Longwan%20Half%20Marathon%2C%20coastal%20city%20scenery%2C%20modern%20architecture%2C%20spring%20landscape%2C%20runners%20on%20urban%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "8000人（半程8000人）",
+      "startPoint": "龙湾区政府广场",
+      "endPoint": "温州奥体中心",
+      "elevation": "约25米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "赛道展现温州龙湾现代化城市风貌，途经温州大道、机场大道等城市主干道，体验温州活力。",
+      "organizer": "中国田径协会、温州市体育局",
+      "undertaker": "龙湾区人民政府",
+      "phone": "0577-12345678",
+      "email": "info@wenzhou-marathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "12,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:04:00.000Z",
+      "updatedAt": "2026-02-27T13:04:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 31,
+      "name": "2026重庆马拉松",
+      "location": "重庆市",
+      "region": "重庆",
+      "city": "重庆市",
+      "province": "重庆市",
+      "district": "南岸区/巴南区",
+      "date": "2026-01-18",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half",
+        "mini"
+      ],
+      "level": "gold",
+      "status": "finished",
+      "regStart": "2025-08-18",
+      "regEnd": "2025-09-30",
+      "regLink": "https://www.baidu.com/s?wd=2026%E9%87%8D%E5%BA%86%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Marathon%202026%2C%20Yangtze%20River%20waterfront%2C%20modern%20cityscape%2C%20mountain%20city%20scenery%2C%20runners%20on%20Nanan%20Road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "35000人（全程+半程+迷你跑）",
+      "startPoint": "南滨路",
+      "endPoint": "巴滨路",
+      "elevation": "约150米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "国内老牌双金赛事，赛道沿长江而行，途经南滨路、巴滨路，展现山城立体城市风貌和两江四岸美景。",
+      "organizer": "中国田径协会、重庆市体育局",
+      "undertaker": "南岸区人民政府、巴南区人民政府",
+      "phone": "023-12345678",
+      "email": "info@cq-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人，迷你跑80元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "50,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000美元"
+        }
+      ],
+      "createdAt": "2026-02-27T13:05:00.000Z",
+      "updatedAt": "2026-02-27T13:05:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 32,
+      "name": "2026乐山犍为茉莉之乡半程马拉松",
+      "location": "乐山市犍为县",
+      "region": "四川",
+      "city": "乐山市",
+      "province": "四川省",
+      "district": "犍为县",
+      "date": "2026-03-29",
+      "distance": "half",
+      "level": "gold",
+      "status": "open",
+      "regStart": "2026-01-16",
+      "regEnd": "2026-02-28",
+      "regLink": "https://www.baidu.com/s?wd=2026%E4%B9%90%E5%B1%B1%E7%8A%8D%E4%B8%BA%E8%8C%89%E8%8E%89%E4%B9%8B%E4%B9%A1%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Qianwei%20Jasmine%20Half%20Marathon%2C%20jasmine%20flowers%2C%20ancient%20town%2C%20Sichuan%20countryside%2C%20spring%20scenery%2C%20runners%20on%20rural%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "5000人（半程5000人）",
+      "startPoint": "犍为县远洋广场",
+      "endPoint": "犍为县茉莉花博览园",
+      "elevation": "约60米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "跑遍四川系列核心赛事，茉莉花乡风貌与马拉松运动相结合，赛道途经犍为古镇、茉莉花海，体验'热辣香甜'的犍为味道。",
+      "organizer": "四川省田径协会、犍为县人民政府",
+      "undertaker": "犍为县文化体育和旅游局",
+      "phone": "0833-12345678",
+      "email": "info@qianwei-marathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:06:00.000Z",
+      "updatedAt": "2026-02-27T13:06:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 33,
+      "name": "2026杭州钱塘女子半程马拉松",
+      "location": "杭州市钱塘区",
+      "region": "浙江",
+      "city": "杭州市",
+      "province": "浙江省",
+      "district": "钱塘区",
+      "date": "2026-03-29",
+      "distance": "half",
+      "level": "silver",
+      "status": "upcoming",
+      "regStart": "2026-01-10",
+      "regEnd": "2026-02-15",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%9D%AD%E5%B7%9E%E9%92%B1%E5%A1%98%E5%A5%B3%E5%AD%90%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Hangzhou%20Qiantang%20Women%20Half%20Marathon%2C%20pink%20theme%2C%20female%20runners%2C%20Qiantang%20River%20scenery%2C%20modern%20cityscape%2C%20spring%20cherry%20blossoms%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "7000人（女子半程7000人）",
+      "startPoint": "钱塘区6号大街",
+      "endPoint": "杭州奥体中心",
+      "elevation": "约20米",
+      "certification": "中国田协B类赛事",
+      "routeDesc": "女子专属赛事，粉嘟嘟的主题设计，赛道沿钱塘江而行，展现杭州钱塘区现代化风貌，体验杭州活力。",
+      "organizer": "杭州市体育局",
+      "undertaker": "钱塘区人民政府",
+      "phone": "0571-12345678",
+      "email": "info@hangzhou-marathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "2,500元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:07:00.000Z",
+      "updatedAt": "2026-02-27T13:07:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 34,
+      "name": "2026杨凌农科城马拉松",
+      "location": "咸阳市杨凌区",
+      "region": "陕西",
+      "city": "咸阳市",
+      "province": "陕西省",
+      "district": "杨凌区",
+      "date": "2026-04-12",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "open",
+      "regStart": "2026-01-29",
+      "regEnd": "2026-02-28",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%9D%A8%E5%87%8C%E5%86%9C%E7%A7%91%E5%9F%8E%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yangling%20Agricultural%20Science%20City%20Marathon%2C%20modern%20agriculture%20exhibition%2C%20greenhouses%2C%20spring%20flowers%2C%20runners%20on%20modern%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "20000人（全程+半程+警官马拉松+大学生半马）",
+      "startPoint": "杨凌示范区会展中心",
+      "endPoint": "西北农林科技大学",
+      "elevation": "约100米",
+      "certification": "世界田联标牌赛事",
+      "routeDesc": "中华农耕文明原点，后稷'教民稼穑'故事传诵四千年，赛道展现中国现代农业坐标，体验农业科技魅力。",
+      "organizer": "中国田径协会、陕西省体育局",
+      "undertaker": "杨凌示范区管委会",
+      "phone": "029-12345678",
+      "email": "info@yangling-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "30,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T13:08:00.000Z",
+      "updatedAt": "2026-02-27T13:08:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 35,
+      "name": "2026江油马拉松",
+      "location": "绵阳市江油市",
+      "region": "四川",
+      "city": "绵阳市",
+      "province": "四川省",
+      "district": "江油市",
+      "date": "2026-03-01",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2025-12-01",
+      "regEnd": "2026-01-15",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%B1%9F%E6%B2%B9%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jiangyou%20Marathon%2C%20Li%20Bai%20hometown%2C%20Sichuan%20mountain%20scenery%2C%20ancient%20culture%2C%20spring%20landscape%2C%20runners%20on%20scenic%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "10000人（全程+半程）",
+      "startPoint": "江油市体育中心",
+      "endPoint": "李白故里景区",
+      "elevation": "约200米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "跑遍四川绵阳站，李白故里诗意赛道，体验'诗仙'文化，赛道途经窦圌山、李白纪念馆等景点。",
+      "organizer": "四川省田径协会、绵阳市人民政府",
+      "undertaker": "江油市人民政府",
+      "phone": "0816-12345678",
+      "email": "info@jiangyou-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "12,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:00:00.000Z",
+      "updatedAt": "2026-02-27T14:00:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 36,
+      "name": "2026南京北岸马拉松",
+      "location": "南京市江北新区",
+      "region": "江苏",
+      "city": "南京市",
+      "province": "江苏省",
+      "district": "江北新区",
+      "date": "2026-03-08",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2025-11-20",
+      "regEnd": "2026-01-10",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%8D%97%E4%BA%AC%E5%8C%97%E5%B2%B8%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Nanjing%20Marathon%2C%20Yangtze%20River%20scenery%2C%20modern%20cityscape%2C%20spring%20cherry%20blossoms%2C%20runners%20on%20riverside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "20000人（全程+半程）",
+      "startPoint": "南京青奥体育公园",
+      "endPoint": "江北新区市民中心",
+      "elevation": "约50米",
+      "certification": "世界田联标牌赛事",
+      "routeDesc": "原南京浦口马拉松升级赛事，赛道沿长江北岸而行，途经南京青奥体育公园、老山国家森林公园，展现江北新区现代化风貌。",
+      "organizer": "中国田径协会、南京市人民政府",
+      "undertaker": "江北新区管委会",
+      "phone": "025-12345678",
+      "email": "info@nanjing-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "30,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:01:00.000Z",
+      "updatedAt": "2026-02-27T14:01:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 37,
+      "name": "2026上海半程马拉松",
+      "location": "上海市浦东新区",
+      "region": "上海",
+      "city": "上海市",
+      "province": "上海市",
+      "district": "浦东新区",
+      "date": "2026-03-15",
+      "distance": "half",
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-01-09",
+      "regEnd": "2026-01-12",
+      "regLink": "https://www.baidu.com/s?wd=2026%E4%B8%8A%E6%B5%B7%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Shanghai%20Half%20Marathon%2C%20Oriental%20Pearl%20Tower%2C%20Lujiazui%20skyline%2C%20Huangpu%20River%2C%20modern%20cityscape%2C%20runners%20on%20urban%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "15000人（半程15000人）",
+      "startPoint": "东方明珠",
+      "endPoint": "上海体育场",
+      "elevation": "约20米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "国内顶级半马赛事，上马系列赛，赛道途经陆家嘴金融中心、东方明珠、世纪公园，展现上海国际化都市风貌。",
+      "organizer": "中国田径协会、上海市体育局",
+      "undertaker": "东浩兰生赛事管理有限公司",
+      "phone": "021-12345678",
+      "email": "info@shanghaimarathon.com",
+      "fee": "半程马拉松160元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "50,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "30,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "4,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:02:00.000Z",
+      "updatedAt": "2026-02-27T14:02:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 38,
+      "name": "2026西湖半程马拉松",
+      "location": "杭州市西湖区",
+      "region": "浙江省 杭州市",
+      "city": "浙江省 杭州市",
+      "province": "浙江省",
+      "district": "西湖区",
+      "date": "2026-03-22",
+      "distance": "half",
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-01-13",
+      "regEnd": "2026-01-19",
+      "regLink": "https://www.baidu.com/s?wd=2026%E8%A5%BF%E6%B9%96%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Hangzhou%20West%20Lake%20Half%20Marathon%2C%20West%20Lake%20scenery%2C%20Su%20Causeway%2C%20willow%20trees%2C%20spring%20peach%20blossoms%2C%20runners%20on%20lakeside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "10000人（半程10000人）",
+      "startTime": "06:30",
+      "startPoint": "黄龙体育中心",
+      "endPoint": "黄龙体育中心",
+      "elevation": "约30米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "赛道环绕西湖风景区，途经苏堤、白堤、断桥等著名景点，在最美西湖春色中奔跑，体验'人间天堂'魅力。",
+      "organizer": "浙江省黄龙体育中心、杭州市体育局、杭州市西湖区人民政府、杭州西湖风景名胜区管理委员会、浙江省马拉松及路跑协会",
+      "undertaker": "杭州市西湖区文化和广电旅游体育局",
+      "phone": "0571-12345678",
+      "email": "info@xihumarathon.com",
+      "fee": "半程马拉松200元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "12,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:03:00.000Z",
+      "updatedAt": "2026-02-27T08:44:13.603Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 39,
+      "name": "2026大渡口半程马拉松",
+      "location": "重庆市大渡口区",
+      "region": "重庆",
+      "city": "重庆市",
+      "province": "重庆市",
+      "district": "大渡口区",
+      "date": "2026-03-22",
+      "distance": "half",
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-02-15",
+      "regEnd": "2026-03-10",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%A4%A7%E6%B8%A1%E5%8F%A3%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Dadukou%20Half%20Marathon%2C%20riverside%20scenery%2C%20industrial%20heritage%2C%20music%20camp%2C%20modern%20cityscape%2C%20runners%20on%20riverside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "5000人（半程5000人）",
+      "startPoint": "大渡口区滨江路音乐营地",
+      "endPoint": "重庆工业博物馆",
+      "elevation": "约100米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "赛道沿长江滨江路而行，途经重庆工业博物馆、音乐营地，展现重庆工业遗产与现代文化融合。",
+      "organizer": "重庆市体育局、大渡口区人民政府",
+      "undertaker": "大渡口区文化和旅游发展委员会",
+      "phone": "023-12345678",
+      "email": "info@dadukou-marathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "2,500元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:04:00.000Z",
+      "updatedAt": "2026-02-27T14:04:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 40,
+      "name": "2026武宣半程马拉松",
+      "location": "来宾市武宣县",
+      "region": "广西",
+      "city": "来宾市",
+      "province": "广西壮族自治区",
+      "district": "武宣县",
+      "date": "2026-03-22",
+      "distance": "half",
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-02-20",
+      "regEnd": "2026-03-15",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%AD%A6%E5%AE%A3%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Wuxuan%20Half%20Marathon%2C%20Guangxi%20countryside%2C%20karst%20mountains%2C%20rice%20terraces%2C%20spring%20scenery%2C%20runners%20on%20rural%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "3000人（半程3000人）",
+      "startPoint": "武宣县市民广场",
+      "endPoint": "武宣县体育中心",
+      "elevation": "约80米",
+      "certification": "中国田协C类赛事",
+      "routeDesc": "赛道展现广西喀斯特地貌风光，途经武宣古城、百崖大峡谷，体验壮族风情。",
+      "organizer": "武宣县人民政府",
+      "undertaker": "武宣县文化体育广电和旅游局",
+      "phone": "0772-12345678",
+      "email": "info@wuxuan-marathon.com",
+      "fee": "半程马拉松120元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "5,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "2,500元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "800元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:05:00.000Z",
+      "updatedAt": "2026-02-27T14:05:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 41,
+      "name": "2026宜宾长江首城马拉松",
+      "location": "宜宾市叙州区",
+      "region": "四川",
+      "city": "宜宾市",
+      "province": "四川省",
+      "district": "叙州区",
+      "date": "2026-04-19",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "open",
+      "regStart": "2026-01-30",
+      "regEnd": "2026-03-03",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%AE%9C%E5%AE%BE%E9%95%BF%E6%B1%9F%E9%A6%96%E5%9F%8E%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yibin%20Marathon%2C%20Yangtze%20River%20scenery%2C%20ancient%20city%2C%20bamboo%20forest%2C%20spring%20landscape%2C%20runners%20on%20riverside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "15000人（全程+半程）",
+      "startPoint": "宜宾市叙州区三江路",
+      "endPoint": "宜宾市体育中心",
+      "elevation": "约60米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "跑遍四川宜宾站，万里长江第一城，赛道沿三江口而行，途经五粮液园区、李庄古镇，体验酒都文化。",
+      "organizer": "四川省田径协会、宜宾市人民政府",
+      "undertaker": "宜宾市教育和体育局",
+      "phone": "0831-12345678",
+      "email": "info@yibin-marathon.com",
+      "fee": "全程马拉松180元/人，半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "12,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:06:00.000Z",
+      "updatedAt": "2026-02-27T14:06:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 42,
+      "name": "2026重庆沙坪坝半程马拉松",
+      "location": "重庆市沙坪坝区",
+      "region": "重庆",
+      "city": "重庆市",
+      "province": "重庆市",
+      "district": "沙坪坝区",
+      "date": "2026-04-19",
+      "distance": "half",
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-02-06",
+      "regEnd": "2026-03-20",
+      "regLink": "https://www.baidu.com/s?wd=2026%E9%87%8D%E5%BA%86%E6%B2%99%E5%9D%AA%E5%9D%9D%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Chongqing%20Shapingba%20Half%20Marathon%2C%20Ciqikou%20ancient%20town%2C%20magnetic%20culture%20square%2C%20spring%20scenery%2C%20runners%20on%20urban%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "8000人（半程8000人）",
+      "startPoint": "磁器口古镇沙磁文化广场",
+      "endPoint": "重庆大学",
+      "elevation": "约120米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "恰逢重庆一中建校95周年，赛道途经磁器口古镇、沙磁文化广场、重庆大学，体验沙坪坝科教文化魅力。",
+      "organizer": "重庆市体育局、沙坪坝区人民政府",
+      "undertaker": "沙坪坝区文化和旅游发展委员会",
+      "phone": "023-12345678",
+      "email": "info@shapingba-marathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:07:00.000Z",
+      "updatedAt": "2026-02-27T14:07:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 43,
+      "name": "2026北京城市副中心马拉松",
+      "location": "北京市通州区",
+      "region": "北京",
+      "city": "北京市",
+      "province": "北京市",
+      "district": "通州区",
+      "date": "2026-04-19",
+      "distance": "full",
+      "level": "gold",
+      "status": "open",
+      "regStart": "2026-02-20",
+      "regEnd": "2026-03-15",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%8C%97%E4%BA%AC%E5%9F%8E%E5%B8%82%E5%89%AF%E4%B8%AD%E5%BF%83%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Sub-center%20Marathon%2C%20Grand%20Canal%20scenery%2C%20modern%20cityscape%2C%20spring%20landscape%2C%20runners%20on%20urban%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "15000人（全程15000人）",
+      "startPoint": "通州区司空分署街",
+      "endPoint": "北京城市副中心行政办公区",
+      "elevation": "约40米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "北京大型全程马拉松，赛道途经大运河森林公园、北京城市副中心行政办公区，展现通州现代化风貌。",
+      "organizer": "中国田径协会、北京市体育局",
+      "undertaker": "通州区人民政府",
+      "phone": "010-12345678",
+      "email": "info@bjmc-marathon.com",
+      "fee": "全程马拉松200元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "30,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:08:00.000Z",
+      "updatedAt": "2026-02-27T14:08:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 44,
+      "name": "2026江西永修半程马拉松",
+      "location": "九江市永修县",
+      "region": "江西",
+      "city": "九江市",
+      "province": "江西省",
+      "district": "永修县",
+      "date": "2026-04-12",
+      "distance": "half",
+      "level": "gold",
+      "status": "open",
+      "regStart": "2026-01-27",
+      "regEnd": "2026-02-28",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%B1%9F%E8%A5%BF%E6%B0%B8%E4%BF%AE%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Yongxiu%20Half%20Marathon%2C%20Poyang%20Lake%20wetland%2C%20migratory%20birds%2C%20spring%20scenery%2C%20runners%20on%20lakeside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "10000人（半程10000人）",
+      "startPoint": "吴城候鸟小镇",
+      "endPoint": "永修县体育中心",
+      "elevation": "约30米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "万人盛会，踏春归来，赛道途经吴城候鸟小镇、鄱阳湖湿地公园，在候鸟王国中奔跑，体验生态之美。",
+      "organizer": "永修县人民政府",
+      "undertaker": "永修县文化广电新闻出版旅游局",
+      "phone": "0792-12345678",
+      "email": "info@yongxiu-marathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "12,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:09:00.000Z",
+      "updatedAt": "2026-02-27T14:09:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 45,
+      "name": "2026杭州富阳半程马拉松",
+      "location": "杭州市富阳区",
+      "region": "浙江",
+      "city": "杭州市",
+      "province": "浙江省",
+      "district": "富阳区",
+      "date": "2026-04-12",
+      "distance": "half",
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-02-25",
+      "regEnd": "2026-03-20",
+      "regLink": "https://www.baidu.com/s?wd=2026%E6%9D%AD%E5%B7%9E%E5%AF%8C%E9%98%B3%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Hangzhou%20Fuyang%20Half%20Marathon%2C%20Fuchun%20River%20scenery%2C%20ancient%20town%2C%20spring%20tea%20plantations%2C%20runners%20on%20riverside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "8000人（半程8000人）",
+      "startPoint": "富阳区文化中心",
+      "endPoint": "富春江畔",
+      "elevation": "约40米",
+      "certification": "中国田协B类赛事",
+      "routeDesc": "赛道沿富春江而行，途经黄公望隐居地、龙门古镇，体验《富春山居图》诗意风光。",
+      "organizer": "富阳区人民政府",
+      "undertaker": "富阳区文化和广电旅游体育局",
+      "phone": "0571-12345678",
+      "email": "info@fuyang-marathon.com",
+      "fee": "半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:10:00.000Z",
+      "updatedAt": "2026-02-27T14:10:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 46,
+      "name": "2026北京半程马拉松",
+      "location": "北京市",
+      "region": "北京",
+      "city": "北京市",
+      "province": "北京市",
+      "district": "",
+      "date": "2026-04-12",
+      "distance": "half",
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-02-14",
+      "regEnd": "2026-02-25",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%8C%97%E4%BA%AC%E5%8D%8A%E7%A8%8B%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Half%20Marathon%2C%20Tiananmen%20Square%2C%20Forbidden%20City%2C%20Olympic%20Park%2C%20spring%20scenery%2C%20runners%20on%20urban%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "22000人（半程22000人）",
+      "startPoint": "天安门广场",
+      "endPoint": "奥林匹克公园中心区景观大道",
+      "elevation": "约50米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "北京核心半马赛事，从天安门广场出发，途经王府井、雍和宫、奥体中心，终点设在奥林匹克公园，体验首都魅力。",
+      "organizer": "中国田径协会、北京市体育局",
+      "undertaker": "北京市体育竞赛管理中心",
+      "phone": "010-12345678",
+      "email": "info@beijinghalfmarathon.com",
+      "fee": "半程马拉松120元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "30,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:11:00.000Z",
+      "updatedAt": "2026-02-27T14:11:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 47,
+      "name": "2026大连马拉松",
+      "location": "大连市",
+      "region": "辽宁",
+      "city": "大连市",
+      "province": "辽宁省",
+      "district": "",
+      "date": "2026-04-26",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "upcoming",
+      "regStart": "2026-02-07",
+      "regEnd": "2026-02-12",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%A4%A7%E8%BF%9E%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Dalian%20Marathon%2C%20coastal%20city%2C%20sea%20scenery%2C%20modern%20architecture%2C%20spring%20landscape%2C%20runners%20on%20seaside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "30000人（全程16000人，半程14000人）",
+      "startPoint": "东港商务区港浦路",
+      "endPoint": "大连国际会议中心",
+      "elevation": "约30米",
+      "certification": "世界田联精英标赛事",
+      "routeDesc": "国内历史最悠久的马拉松赛事之一，已成功举办35届，赛道沿大连海滨而行，展现'北方明珠'城市风貌。",
+      "organizer": "中国田径协会、大连市人民政府",
+      "undertaker": "大连市体育局",
+      "phone": "0411-12345678",
+      "email": "info@dalian-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "40,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000美元"
+        }
+      ],
+      "createdAt": "2026-02-27T14:12:00.000Z",
+      "updatedAt": "2026-02-27T14:12:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 48,
+      "name": "2026鹰潭龙虎山马拉松",
+      "location": "鹰潭市",
+      "region": "江西",
+      "city": "鹰潭市",
+      "province": "江西省",
+      "district": "",
+      "date": "2026-04-26",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "silver",
+      "status": "open",
+      "regStart": "2026-02-15",
+      "regEnd": "2026-03-25",
+      "regLink": "https://www.baidu.com/s?wd=2026%E9%B9%B0%E6%BD%AD%E9%BE%99%E8%99%8E%E5%B1%B1%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Longhushan%20Marathon%2C%20Taoist%20sacred%20mountain%2C%20cliff%20tombs%2C%20spring%20scenery%2C%20runners%20on%20mountain%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "8500人（全程1500人，半程7000人）",
+      "startPoint": "龙虎山游客中心",
+      "endPoint": "龙虎山景区",
+      "elevation": "约150米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "5A级景区马拉松，不抽签，额满截止，赛道途经龙虎山丹霞地貌、悬棺奇观，体验道教文化。",
+      "organizer": "鹰潭市人民政府",
+      "undertaker": "鹰潭市文化广电新闻出版旅游局",
+      "phone": "0701-12345678",
+      "email": "info@longhushan-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松150元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "3,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "2,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "1,500元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:13:00.000Z",
+      "updatedAt": "2026-02-27T14:13:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 49,
+      "name": "2026北京密云马拉松",
+      "location": "北京市密云区",
+      "region": "北京",
+      "city": "北京市",
+      "province": "北京市",
+      "district": "密云区",
+      "date": "2026-04-26",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "pending",
+      "regStart": "2026-03-01",
+      "regEnd": "2026-03-25",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%8C%97%E4%BA%AC%E5%AF%86%E4%BA%91%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Beijing%20Miyun%20Marathon%2C%20Miyun%20Reservoir%2C%20ecological%20scenery%2C%20spring%20landscape%2C%20runners%20on%20lakeside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "12000人（全程+半程）",
+      "startPoint": "密云区生态商务区",
+      "endPoint": "密云水库大坝",
+      "elevation": "约80米",
+      "certification": "中国田协A类赛事",
+      "routeDesc": "北京大型全程马拉松，赛道途经密云水库、生态商务区，体验北京生态涵养区自然风光。",
+      "organizer": "北京市体育局、密云区人民政府",
+      "undertaker": "密云区体育局",
+      "phone": "010-12345678",
+      "email": "info@miyun-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "20,000元人民币"
+        },
+        {
+          "rank": "第二名",
+          "prize": "15,000元人民币"
+        },
+        {
+          "rank": "第三名",
+          "prize": "12,000元人民币"
+        },
+        {
+          "rank": "第四名",
+          "prize": "10,000元人民币"
+        },
+        {
+          "rank": "第五名",
+          "prize": "8,000元人民币"
+        },
+        {
+          "rank": "第六名",
+          "prize": "6,000元人民币"
+        },
+        {
+          "rank": "第七名",
+          "prize": "4,000元人民币"
+        },
+        {
+          "rank": "第八名",
+          "prize": "2,000元人民币"
+        }
+      ],
+      "createdAt": "2026-02-27T14:14:00.000Z",
+      "updatedAt": "2026-02-27T14:14:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    },
+    {
+      "id": 50,
+      "name": "2026吉林马拉松",
+      "location": "吉林市",
+      "region": "吉林",
+      "city": "吉林市",
+      "province": "吉林省",
+      "district": "",
+      "date": "2026-05-31",
+      "distance": "full",
+      "distances": [
+        "full",
+        "half"
+      ],
+      "level": "gold",
+      "status": "pending",
+      "regStart": "2026-03-01",
+      "regEnd": "2026-04-15",
+      "regLink": "https://www.baidu.com/s?wd=2026%E5%90%89%E6%9E%97%E9%A9%AC%E6%8B%89%E6%9D%BE%20%E6%8A%A5%E5%90%8D%202026",
+      "image": "https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=Jilin%20Marathon%2C%20Songhua%20River%20scenery%2C%20rime%20ice%20city%2C%20spring%20landscape%2C%20runners%20on%20riverside%20road%2C%20professional%20photography&image_size=landscape_4_3",
+      "scale": "25000人（全程+半程）",
+      "startPoint": "吉林市人民广场",
+      "endPoint": "吉林体育馆",
+      "elevation": "约60米",
+      "certification": "世界田联金标赛事",
+      "routeDesc": "东北核心双金赛事，赛道沿松花江而行，途经江城大桥、江滨公园，体验北国江城魅力。",
+      "organizer": "中国田径协会、吉林省体育局",
+      "undertaker": "吉林市人民政府",
+      "phone": "0432-12345678",
+      "email": "info@jilin-marathon.com",
+      "fee": "全程马拉松200元/人，半程马拉松180元/人",
+      "rewards": [
+        {
+          "rank": "第一名",
+          "prize": "50,000美元"
+        },
+        {
+          "rank": "第二名",
+          "prize": "20,000美元"
+        },
+        {
+          "rank": "第三名",
+          "prize": "10,000美元"
+        },
+        {
+          "rank": "第四名",
+          "prize": "5,000美元"
+        },
+        {
+          "rank": "第五名",
+          "prize": "4,000美元"
+        },
+        {
+          "rank": "第六名",
+          "prize": "3,000美元"
+        },
+        {
+          "rank": "第七名",
+          "prize": "2,000美元"
+        },
+        {
+          "rank": "第八名",
+          "prize": "1,000美元"
+        }
+      ],
+      "createdAt": "2026-02-27T14:15:00.000Z",
+      "updatedAt": "2026-02-27T14:15:00.000Z",
+      "regLinkSource": "百度搜索",
+      "regLinkType": "search"
+    }
+  ]
+}

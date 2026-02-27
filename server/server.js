@@ -9,7 +9,7 @@ const cron = require('node-cron');
 const fs = require('fs-extra');
 const path = require('path');
 const { scrapeRaces, generateNewRaces } = require('./scraper');
-const { incrementalUpdate, calculateRaceStatus } = require('./scraper-improved');
+const { calculateRaceStatus } = require('./scraper-improved');
 const { runAutoUpdate } = require('./auto-update');
 
 const app = express();

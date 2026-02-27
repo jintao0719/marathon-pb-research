@@ -315,14 +315,21 @@ onMounted(async () => {
   // 设置页面SEO
   updatePageMeta(pageSEO.home)
   
-  // 加载赛事数据（使用静态数据，适用于Vercel部署）
+  // 加载赛事数据（优先API，失败使用静态数据）
   try {
-    const data = getStaticRaces()
-    console.log('静态数据:', data)
-    races.value = data || []
-    console.log('赋值后races:', races.value.length)
+    const apiRaces = await getAllRaces()
+    if (apiRaces && apiRaces.length > 0) {
+      races.value = apiRaces
+      console.log('API数据:', apiRaces.length)
+    } else {
+      const staticData = getStaticRaces()
+      races.value = staticData || []
+      console.log('静态数据:', staticData.length)
+    }
   } catch (error) {
-    console.error('加载赛事失败:', error)
+    console.error('API加载失败，使用静态数据:', error)
+    const staticData = getStaticRaces()
+    races.value = staticData || []
   }
 })
 

@@ -300,12 +300,23 @@ const resetFilters = () => {
 const loadRaces = async () => {
   loading.value = true
   try {
-    // 优先使用静态数据（适用于Vercel部署）
-    const data = getStaticRaces()
-    races.value = data
-    console.log(`已加载 ${data.length} 场赛事（静态数据）`)
+    // 优先从API获取数据（本地开发环境）
+    const apiRaces = await getAllRaces()
+    if (apiRaces && apiRaces.length > 0) {
+      races.value = apiRaces
+      console.log(`已加载 ${apiRaces.length} 场赛事（API数据）`)
+    } else {
+      // API无数据，使用静态数据（Vercel部署备用）
+      const staticData = getStaticRaces()
+      races.value = staticData
+      console.log(`已加载 ${staticData.length} 场赛事（静态数据）`)
+    }
   } catch (error) {
-    console.error('加载赛事数据失败:', error)
+    console.error('API加载失败，使用静态数据:', error)
+    // API失败，使用静态数据
+    const staticData = getStaticRaces()
+    races.value = staticData
+    console.log(`已加载 ${staticData.length} 场赛事（静态数据）`)
   } finally {
     loading.value = false
   }

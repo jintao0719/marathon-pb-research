@@ -277,6 +277,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
+import { getRaceById, getAllRaces } from '../api/races.js'
 import { getRaceById as getStaticRaceById } from '../data/races-static.js'
 import { updatePageMeta, pageSEO, generateRaceStructuredData, addStructuredData, calculateRaceStatus } from '../utils/seo.js'
 
@@ -369,16 +370,29 @@ onMounted(async () => {
   const raceId = parseInt(route.params.id)
 
   try {
-    // 使用静态数据（适用于Vercel部署）
+    // 优先从API获取数据
+    const apiRace = await getRaceById(raceId)
+    if (apiRace) {
+      race.value = apiRace
+      console.log('从API加载赛事详情:', apiRace.name)
+    } else {
+      // API无数据，使用静态数据
+      const staticRace = getStaticRaceById(raceId)
+      if (staticRace) {
+        race.value = staticRace
+        console.log('从静态数据加载赛事详情:', staticRace.name)
+      } else {
+        race.value = defaultRaces.find(r => r.id === raceId)
+      }
+    }
+  } catch (error) {
+    console.error('API加载失败，使用静态数据:', error)
     const staticRace = getStaticRaceById(raceId)
     if (staticRace) {
       race.value = staticRace
     } else {
       race.value = defaultRaces.find(r => r.id === raceId)
     }
-  } catch (error) {
-    console.error('加载赛事详情失败:', error)
-    race.value = defaultRaces.find(r => r.id === raceId)
   } finally {
     loading.value = false
   }

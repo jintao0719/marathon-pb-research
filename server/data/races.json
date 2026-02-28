@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-27T16:00:00.915Z",
+  "lastUpdated": "2026-02-28T06:21:41.798Z",
   "races": [
     {
       "id": 1,
@@ -26,8 +26,21 @@
       "phone": "010-12345678",
       "email": "info@beijing-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
-      "province": "北京市"
+      "updatedAt": "2026-02-28T06:21:41.796Z",
+      "province": "北京市",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "official",
+      "regVerified": true,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 2,
@@ -53,10 +66,23 @@
       "phone": "021-87654321",
       "email": "info@shanghai-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "上海市",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 3,
@@ -81,8 +107,21 @@
       "phone": "0592-12345678",
       "email": "info@xmim.org",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
-      "province": "福建省"
+      "updatedAt": "2026-02-28T06:21:41.798Z",
+      "province": "福建省",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "official",
+      "regVerified": true,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 4,
@@ -107,10 +146,23 @@
       "phone": "028-12345678",
       "email": "info@chengdu-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "四川省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 5,
@@ -135,10 +187,23 @@
       "phone": "0571-12345678",
       "email": "info@hzim.org",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "浙江省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 6,
@@ -163,10 +228,23 @@
       "phone": "020-12345678",
       "email": "info@guangzhou-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "广东省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 7,
@@ -191,10 +269,23 @@
       "phone": "0755-12345678",
       "email": "info@shenzhen-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "广东省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 8,
@@ -219,10 +310,23 @@
       "phone": "027-12345678",
       "email": "info@wuhan-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "湖北省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 9,
@@ -247,10 +351,23 @@
       "phone": "023-12345678",
       "email": "info@cq-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "重庆市",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 10,
@@ -275,10 +392,23 @@
       "phone": "029-12345678",
       "email": "info@xian-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "陕西省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 11,
@@ -303,10 +433,23 @@
       "phone": "025-12345678",
       "email": "info@nanjing-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "江苏省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 12,
@@ -331,10 +474,23 @@
       "phone": "0532-12345678",
       "email": "info@qd-marathon.com",
       "createdAt": "2024-01-01T00:00:00.000Z",
-      "updatedAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "山东省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2024-01-01T00:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2024-01-01T00:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 13,
@@ -359,10 +515,23 @@
       "phone": "0510-12345678",
       "email": "info@wuxi-marathon.com",
       "createdAt": "2026-02-26T08:16:42.027Z",
-      "updatedAt": "2026-02-26T08:16:42.027Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "江苏省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-26T08:16:42.027Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-26T08:16:42.027Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 14,
@@ -387,10 +556,23 @@
       "phone": "0931-12345678",
       "email": "info@lz-marathon.com",
       "createdAt": "2026-02-26T08:16:42.027Z",
-      "updatedAt": "2026-02-26T08:16:42.027Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "province": "甘肃省",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-26T08:16:42.027Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-26T08:16:42.027Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 15,
@@ -462,9 +644,22 @@
         }
       ],
       "createdAt": "2026-02-27T02:48:54.574Z",
-      "updatedAt": "2026-02-27T10:55:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T10:55:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T10:55:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 16,
@@ -532,7 +727,20 @@
         }
       ],
       "createdAt": "2026-02-27T11:00:00.000Z",
-      "updatedAt": "2026-02-27T11:00:00.000Z"
+      "updatedAt": "2026-02-28T06:21:41.798Z",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T11:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "official",
+      "regVerified": true,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T11:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 17,
@@ -604,7 +812,20 @@
         }
       ],
       "createdAt": "2026-02-27T11:01:00.000Z",
-      "updatedAt": "2026-02-27T11:01:00.000Z"
+      "updatedAt": "2026-02-28T06:21:41.798Z",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T11:01:00.000Z",
+      "regStatus": "closed",
+      "regSource": "official",
+      "regVerified": true,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T11:01:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 18,
@@ -668,7 +889,20 @@
         }
       ],
       "createdAt": "2026-02-27T11:02:00.000Z",
-      "updatedAt": "2026-02-27T11:02:00.000Z"
+      "updatedAt": "2026-02-28T06:21:41.798Z",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T11:02:00.000Z",
+      "regStatus": "closed",
+      "regSource": "official",
+      "regVerified": true,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T11:02:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 19,
@@ -732,9 +966,22 @@
         }
       ],
       "createdAt": "2026-02-27T11:03:00.000Z",
-      "updatedAt": "2026-02-27T11:03:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T11:03:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T11:03:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 20,
@@ -802,9 +1049,22 @@
         }
       ],
       "createdAt": "2026-02-27T11:04:00.000Z",
-      "updatedAt": "2026-02-27T11:04:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T11:04:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T11:04:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 21,
@@ -872,9 +1132,22 @@
         }
       ],
       "createdAt": "2026-02-27T11:05:00.000Z",
-      "updatedAt": "2026-02-27T11:05:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T11:05:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T11:05:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 22,
@@ -942,7 +1215,20 @@
         }
       ],
       "createdAt": "2026-02-27T12:00:00.000Z",
-      "updatedAt": "2026-02-27T12:00:00.000Z"
+      "updatedAt": "2026-02-28T06:21:41.798Z",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T12:00:00.000Z",
+      "regStatus": "open",
+      "regSource": "official",
+      "regVerified": true,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T12:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 23,
@@ -1010,9 +1296,22 @@
         }
       ],
       "createdAt": "2026-02-27T12:01:00.000Z",
-      "updatedAt": "2026-02-27T12:01:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T12:01:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T12:01:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 24,
@@ -1076,9 +1375,22 @@
         }
       ],
       "createdAt": "2026-02-27T12:02:00.000Z",
-      "updatedAt": "2026-02-27T12:02:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T12:02:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T12:02:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 25,
@@ -1142,9 +1454,22 @@
         }
       ],
       "createdAt": "2026-02-27T12:03:00.000Z",
-      "updatedAt": "2026-02-27T12:03:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T12:03:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T12:03:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 26,
@@ -1212,9 +1537,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:00:00.000Z",
-      "updatedAt": "2026-02-27T13:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 27,
@@ -1283,9 +1621,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:01:00.000Z",
-      "updatedAt": "2026-02-27T13:01:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:01:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:01:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 28,
@@ -1349,9 +1700,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:02:00.000Z",
-      "updatedAt": "2026-02-27T13:02:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:02:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:02:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 29,
@@ -1415,9 +1779,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:03:00.000Z",
-      "updatedAt": "2026-02-27T13:03:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:03:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:03:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 30,
@@ -1481,9 +1858,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:04:00.000Z",
-      "updatedAt": "2026-02-27T13:04:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:04:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:04:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 31,
@@ -1552,9 +1942,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:05:00.000Z",
-      "updatedAt": "2026-02-27T13:05:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:05:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:05:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 32,
@@ -1618,9 +2021,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:06:00.000Z",
-      "updatedAt": "2026-02-27T13:06:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:06:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:06:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 33,
@@ -1684,9 +2100,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:07:00.000Z",
-      "updatedAt": "2026-02-27T13:07:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:07:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:07:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 34,
@@ -1754,9 +2183,22 @@
         }
       ],
       "createdAt": "2026-02-27T13:08:00.000Z",
-      "updatedAt": "2026-02-27T13:08:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T13:08:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T13:08:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 35,
@@ -1824,9 +2266,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:00:00.000Z",
-      "updatedAt": "2026-02-27T14:00:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:00:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:00:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 36,
@@ -1894,9 +2349,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:01:00.000Z",
-      "updatedAt": "2026-02-27T14:01:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:01:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:01:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 37,
@@ -1960,9 +2428,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:02:00.000Z",
-      "updatedAt": "2026-02-27T14:02:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:02:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:02:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 38,
@@ -2027,9 +2508,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:03:00.000Z",
-      "updatedAt": "2026-02-27T08:44:13.603Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T08:44:13.603Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T08:44:13.603Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 39,
@@ -2093,9 +2587,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:04:00.000Z",
-      "updatedAt": "2026-02-27T14:04:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:04:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:04:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 40,
@@ -2159,9 +2666,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:05:00.000Z",
-      "updatedAt": "2026-02-27T14:05:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:05:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:05:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 41,
@@ -2229,9 +2749,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:06:00.000Z",
-      "updatedAt": "2026-02-27T14:06:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:06:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:06:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 42,
@@ -2295,9 +2828,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:07:00.000Z",
-      "updatedAt": "2026-02-27T14:07:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:07:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:07:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 43,
@@ -2361,9 +2907,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:08:00.000Z",
-      "updatedAt": "2026-02-27T14:08:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:08:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:08:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 44,
@@ -2427,9 +2986,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:09:00.000Z",
-      "updatedAt": "2026-02-27T14:09:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:09:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:09:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 45,
@@ -2493,9 +3065,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:10:00.000Z",
-      "updatedAt": "2026-02-27T14:10:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:10:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:10:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 46,
@@ -2559,9 +3144,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:11:00.000Z",
-      "updatedAt": "2026-02-27T14:11:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:11:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:11:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 47,
@@ -2629,9 +3227,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:12:00.000Z",
-      "updatedAt": "2026-02-27T14:12:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:12:00.000Z",
+      "regStatus": "closed",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:12:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 48,
@@ -2699,9 +3310,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:13:00.000Z",
-      "updatedAt": "2026-02-27T14:13:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:13:00.000Z",
+      "regStatus": "open",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:13:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 49,
@@ -2769,9 +3393,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:14:00.000Z",
-      "updatedAt": "2026-02-27T14:14:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:14:00.000Z",
+      "regStatus": "upcoming",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:14:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     },
     {
       "id": 50,
@@ -2839,9 +3476,22 @@
         }
       ],
       "createdAt": "2026-02-27T14:15:00.000Z",
-      "updatedAt": "2026-02-27T14:15:00.000Z",
+      "updatedAt": "2026-02-28T06:21:41.798Z",
       "regLinkSource": "百度搜索",
-      "regLinkType": "search"
+      "regLinkType": "search",
+      "infoSource": "manual",
+      "infoVerified": true,
+      "infoManual": true,
+      "infoLastUpdate": "2026-02-27T14:15:00.000Z",
+      "regStatus": "upcoming",
+      "regSource": "search",
+      "regVerified": false,
+      "regManual": false,
+      "regLastUpdate": "2026-02-27T14:15:00.000Z",
+      "manualLock": {
+        "info": false,
+        "reg": false
+      }
     }
   ]
 }

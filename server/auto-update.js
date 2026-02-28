@@ -4,6 +4,7 @@
  */
 
 const { incrementalUpdate } = require('./scraper-improved');
+const { scanRegistrationLinks } = require('./scraper-registration');
 const fs = require('fs-extra');
 const path = require('path');
 
@@ -32,10 +33,12 @@ async function runAutoUpdate() {
   await log('========================================');
   
   try {
+    // 第一步：更新赛事基本信息
+    await log('📝 步骤1: 更新赛事基本信息...');
     const result = await incrementalUpdate();
     
     if (result.success) {
-      await log(`✅ 自动更新成功`);
+      await log(`✅ 赛事信息更新成功`);
       await log(`   - 新增赛事: ${result.added} 条`);
       await log(`   - 更新赛事: ${result.updated} 条`);
       await log(`   - 当前总数: ${result.total} 条`);
@@ -47,8 +50,17 @@ async function runAutoUpdate() {
         });
       }
     } else {
-      await log(`❌ 自动更新失败: ${result.error}`, 'error');
+      await log(`❌ 赛事信息更新失败: ${result.error}`, 'error');
     }
+    
+    // 第二步：扫描报名链接
+    await log('');
+    await log('🔗 步骤2: 扫描报名链接...');
+    const regResult = await scanRegistrationLinks();
+    await log(`✅ 报名链接扫描完成`);
+    await log(`   - 需要更新: ${regResult.total} 条`);
+    await log(`   - 更新成功: ${regResult.updated} 条`);
+    await log(`   - 未找到: ${regResult.failed} 条`);
     
   } catch (error) {
     await log(`❌ 执行异常: ${error.message}`, 'error');

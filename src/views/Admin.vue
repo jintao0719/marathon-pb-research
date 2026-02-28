@@ -90,6 +90,7 @@
                     <th>日期</th>
                     <th>距离</th>
                     <th>状态</th>
+                    <th>报名链接</th>
                     <th>操作</th>
                   </tr>
                 </thead>
@@ -103,6 +104,14 @@
                       <span class="status-tag" :class="race.status">
                         {{ getStatusLabel(race.status) }}
                       </span>
+                    </td>
+                    <td>
+                      <div class="reg-info">
+                        <span class="reg-status" :class="getRegStatusClass(race)">
+                          {{ getRegStatusText(race) }}
+                        </span>
+                        <span v-if="race.manualLock?.reg" class="lock-icon" title="人工锁定">🔒</span>
+                      </div>
                     </td>
                     <td>
                       <div class="action-btns">
@@ -276,6 +285,12 @@
             <div class="form-group">
               <label>报名链接 *</label>
               <input v-model="editingRace.regLink" type="text" class="input" placeholder="https://..." />
+            </div>
+            <div class="form-group checkbox-group">
+              <label class="checkbox-label">
+                <input v-model="editingRace.manualLock.reg" type="checkbox" />
+                <span>人工锁定报名链接（锁定后自动更新将跳过此赛事）</span>
+              </label>
             </div>
           </div>
           <div class="form-group">
@@ -548,6 +563,22 @@ const getStatusLabel = (status) => {
   return map[status] || status
 }
 
+// 获取报名链接状态文本
+const getRegStatusText = (race) => {
+  if (race.manualLock?.reg) return '人工维护'
+  if (race.regVerified) return '已验证'
+  if (race.regSource === 'search') return '待验证'
+  return '未找到'
+}
+
+// 获取报名链接状态样式类
+const getRegStatusClass = (race) => {
+  if (race.manualLock?.reg) return 'manual'
+  if (race.regVerified) return 'verified'
+  if (race.regSource === 'search') return 'pending'
+  return 'missing'
+}
+
 const getGoalLabel = (goal) => {
   const map = { 'half': '半程马拉松', 'full': '全程马拉松', 'sub3': '破3挑战' }
   return map[goal] || goal
@@ -587,6 +618,10 @@ const updateCityDisplay = () => {
 const openRaceModal = (race = null) => {
   if (race) {
     Object.assign(editingRace, race)
+    // 确保 manualLock 对象存在
+    if (!editingRace.manualLock) {
+      editingRace.manualLock = { info: false, reg: false }
+    }
     // 根据race.city或race.region解析并设置省份和城市选择器
     const cityStr = race.city || race.region || ''
     if (cityStr) {
@@ -624,7 +659,8 @@ const openRaceModal = (race = null) => {
       status: 'upcoming',
       regStart: '',
       regEnd: '',
-      regLink: ''
+      regLink: '',
+      manualLock: { info: false, reg: false }
     })
     selectedProvince.value = ''
     selectedCity.value = ''
@@ -1068,6 +1104,46 @@ const deleteKnowledge = (id) => {
   color: #9E9E9E;
 }
 
+/* 报名链接状态样式 */
+.reg-info {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.reg-status {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.reg-status.verified {
+  background: rgba(76, 175, 80, 0.1);
+  color: #4CAF50;
+}
+
+.reg-status.pending {
+  background: rgba(255, 152, 0, 0.1);
+  color: var(--primary-orange);
+}
+
+.reg-status.manual {
+  background: rgba(30, 136, 229, 0.1);
+  color: var(--primary-blue);
+}
+
+.reg-status.missing {
+  background: rgba(158, 158, 158, 0.1);
+  color: #9E9E9E;
+}
+
+.lock-icon {
+  font-size: 12px;
+  cursor: help;
+}
+
 .action-btns {
   display: flex;
   gap: 8px;
@@ -1223,6 +1299,29 @@ const deleteKnowledge = (id) => {
   font-weight: 500;
   margin-bottom: 6px;
   color: var(--text-dark);
+}
+
+.form-group.checkbox-group {
+  margin-top: 12px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.checkbox-label input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.checkbox-label span {
+  font-size: 12px;
+  color: var(--text-gray);
 }
 
 .city-selector {

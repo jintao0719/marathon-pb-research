@@ -286,7 +286,7 @@ const hotRaces = computed(() => {
     const statusInfo = calculateRaceStatus(race)
     const distanceLabel = race.distances 
       ? (race.distances.includes('full') && race.distances.includes('half') ? '全马+半马' : 
-         race.distances.includes('full') ? '全程' : '半程')
+           race.distances.includes('full') ? '全程' : '半程')
       : (race.distance === 'full' ? '全程' : '半程')
     
     return {
@@ -302,6 +302,9 @@ const hotRaces = computed(() => {
   })
   
   console.log('最终展示的赛事数:', result.length)
+  result.forEach((r, i) => {
+    console.log(`热门赛事 ${i + 1}: ID=${r.id}, 名称=${r.name}`)
+  })
   return result
 })
 

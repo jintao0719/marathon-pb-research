@@ -587,8 +587,28 @@ const updateCityDisplay = () => {
 const openRaceModal = (race = null) => {
   if (race) {
     Object.assign(editingRace, race)
-    selectedProvince.value = ''
-    selectedCity.value = ''
+    // 根据race.city或race.region解析并设置省份和城市选择器
+    const cityStr = race.city || race.region || ''
+    if (cityStr) {
+      // 尝试匹配省份
+      const provinceMatch = chinaRegions.find(p => cityStr.includes(p.name))
+      if (provinceMatch) {
+        selectedProvince.value = provinceMatch.code
+        // 尝试匹配城市
+        const cityMatch = provinceMatch.cities.find(c => cityStr.includes(c.name))
+        if (cityMatch) {
+          selectedCity.value = cityMatch.code
+        } else {
+          selectedCity.value = ''
+        }
+      } else {
+        selectedProvince.value = ''
+        selectedCity.value = ''
+      }
+    } else {
+      selectedProvince.value = ''
+      selectedCity.value = ''
+    }
     selectedDistrict.value = ''
   } else {
     Object.assign(editingRace, {

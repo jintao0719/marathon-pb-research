@@ -246,7 +246,7 @@ const submitFeedback = async () => {
   isSubmitting.value = true
   
   try {
-    const response = await fetch('http://localhost:3002/api/feedback', {
+    const response = await fetch('/api/feedback', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

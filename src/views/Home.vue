@@ -170,6 +170,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed } from 'vue'
 import { useRouter } from 'vue-router'
+import { getAllRaces } from '../api/races.js'
 import { getAllRaces as getStaticRaces } from '../data/races-static.js'
 import { updatePageMeta, pageSEO } from '../utils/seo.js'
 

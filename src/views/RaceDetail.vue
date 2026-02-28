@@ -368,25 +368,30 @@ const formatFullDate = (dateStr) => {
 onMounted(async () => {
   loading.value = true
   const raceId = parseInt(route.params.id)
+  console.log('RaceDetail - 路由参数ID:', raceId, '原始值:', route.params.id)
 
   try {
     // 优先从API获取数据
+    console.log('RaceDetail - 开始调用API获取赛事:', raceId)
     const apiRace = await getRaceById(raceId)
+    console.log('RaceDetail - API返回结果:', apiRace)
     if (apiRace) {
       race.value = apiRace
-      console.log('从API加载赛事详情:', apiRace.name)
+      console.log('RaceDetail - 从API加载赛事详情成功:', apiRace.name)
     } else {
+      console.log('RaceDetail - API返回空，尝试静态数据')
       // API无数据，使用静态数据
       const staticRace = getStaticRaceById(raceId)
       if (staticRace) {
         race.value = staticRace
-        console.log('从静态数据加载赛事详情:', staticRace.name)
+        console.log('RaceDetail - 从静态数据加载赛事详情:', staticRace.name)
       } else {
+        console.log('RaceDetail - 静态数据也未找到，使用默认数据')
         race.value = defaultRaces.find(r => r.id === raceId)
       }
     }
   } catch (error) {
-    console.error('API加载失败，使用静态数据:', error)
+    console.error('RaceDetail - API加载失败:', error)
     const staticRace = getStaticRaceById(raceId)
     if (staticRace) {
       race.value = staticRace
@@ -395,6 +400,7 @@ onMounted(async () => {
     }
   } finally {
     loading.value = false
+    console.log('RaceDetail - 最终加载的赛事:', race.value?.name || '未找到')
   }
   
   // 更新SEO
@@ -403,7 +409,7 @@ onMounted(async () => {
   }
   
   if (!race.value) {
-    console.log('赛事未找到')
+    console.log('RaceDetail - 赛事未找到')
   }
 })
 </script>

@@ -78,6 +78,43 @@
               </button>
             </div>
 
+            <!-- 筛选栏 -->
+            <div class="filter-bar">
+              <div class="filter-group">
+                <input 
+                  v-model="raceFilters.keyword" 
+                  type="text" 
+                  class="input filter-input" 
+                  placeholder="搜索赛事名称..."
+                  @input="applyRaceFilters"
+                />
+              </div>
+              <div class="filter-group">
+                <select v-model="raceFilters.status" class="input filter-select" @change="applyRaceFilters">
+                  <option value="">全部状态</option>
+                  <option value="open">报名中</option>
+                  <option value="upcoming">即将开始</option>
+                  <option value="finished">已结束</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <select v-model="raceFilters.distance" class="input filter-select" @change="applyRaceFilters">
+                  <option value="">全部距离</option>
+                  <option value="full">全程马拉松</option>
+                  <option value="half">半程马拉松</option>
+                </select>
+              </div>
+              <div class="filter-group">
+                <select v-model="raceFilters.regStatus" class="input filter-select" @change="applyRaceFilters">
+                  <option value="">全部报名链接</option>
+                  <option value="verified">已验证</option>
+                  <option value="pending">待验证</option>
+                  <option value="manual">人工维护</option>
+                </select>
+              </div>
+              <button class="btn btn-outline" @click="resetRaceFilters">重置筛选</button>
+            </div>
+
             <div v-if="loading" class="loading-container">
               <p>加载中...</p>
             </div>
@@ -95,7 +132,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="race in races" :key="race.id">
+                  <tr v-for="race in filteredRaces" :key="race.id">
                     <td>{{ race.name }}</td>
                     <td>{{ race.city || race.region }}</td>
                     <td>{{ race.date }}</td>
@@ -422,6 +459,63 @@ const adminTabs = [
 
 const races = ref([])
 const loading = ref(false)
+
+// 赛事筛选条件
+const raceFilters = ref({
+  keyword: '',
+  status: '',
+  distance: '',
+  regStatus: ''
+})
+
+// 筛选后的赛事列表
+const filteredRaces = computed(() => {
+  return races.value.filter(race => {
+    // 关键词筛选
+    if (raceFilters.value.keyword) {
+      const keyword = raceFilters.value.keyword.toLowerCase()
+      const matchName = race.name?.toLowerCase().includes(keyword)
+      const matchCity = (race.city || race.region || race.location)?.toLowerCase().includes(keyword)
+      if (!matchName && !matchCity) return false
+    }
+    
+    // 状态筛选
+    if (raceFilters.value.status && race.status !== raceFilters.value.status) {
+      return false
+    }
+    
+    // 距离筛选
+    if (raceFilters.value.distance && race.distance !== raceFilters.value.distance) {
+      return false
+    }
+    
+    // 报名链接状态筛选
+    if (raceFilters.value.regStatus) {
+      if (raceFilters.value.regStatus === 'verified' && !race.regVerified) return false
+      if (raceFilters.value.regStatus === 'pending' && race.regSource !== 'search') return false
+      if (raceFilters.value.regStatus === 'manual' && !race.manualLock?.reg) return false
+    }
+    
+    return true
+  })
+})
+
+// 应用赛事筛选
+const applyRaceFilters = () => {
+  // 筛选逻辑由 computed 自动处理
+  console.log('应用筛选条件:', raceFilters.value)
+}
+
+// 重置赛事筛选
+const resetRaceFilters = () => {
+  raceFilters.value = {
+    keyword: '',
+    status: '',
+    distance: '',
+    regStatus: ''
+  }
+  console.log('重置筛选条件')
+}
 
 const selectedProvince = ref('')
 const selectedCity = ref('')
@@ -1051,6 +1145,52 @@ const deleteKnowledge = (id) => {
 
 .data-table-container {
   overflow-x: auto;
+}
+
+/* 筛选栏样式 */
+.filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px;
+  background: var(--bg-gray);
+  border-radius: 8px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+}
+
+.filter-input {
+  width: 200px;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.filter-select {
+  width: 140px;
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 14px;
+  background: white;
+  cursor: pointer;
+}
+
+.filter-input:focus,
+.filter-select:focus {
+  outline: none;
+  border-color: var(--primary-blue);
+}
+
+.filter-bar .btn {
+  padding: 8px 16px;
+  font-size: 14px;
 }
 
 .data-table {

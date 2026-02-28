@@ -273,7 +273,8 @@ const submitFeedback = async () => {
     }
   } catch (error) {
     console.error('提交反馈失败:', error)
-    alert('网络错误，请稍后重试')
+    console.error('错误详情:', error.message)
+    alert('网络错误: ' + error.message + '\n请检查网络连接或稍后重试')
   } finally {
     isSubmitting.value = false
   }

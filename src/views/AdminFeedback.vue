@@ -156,7 +156,7 @@ const processedCount = computed(() => {
 const loadFeedback = async () => {
   loading.value = true
   try {
-    const response = await fetch('http://localhost:3002/api/admin/feedback')
+    const response = await fetch('/api/admin/feedback')
     const data = await response.json()
     if (data.success) {
       feedbackList.value = data.feedback
@@ -173,7 +173,7 @@ const loadFeedback = async () => {
 const toggleStatus = async (item) => {
   const newStatus = item.status === 'pending' ? 'processed' : 'pending'
   try {
-    const response = await fetch(`http://localhost:3002/api/admin/feedback/${item.id}`, {
+    const response = await fetch(`/api/admin/feedback/${item.id}`, {
       method: 'PUT',
       headers: {
         'Content-Type': 'application/json'
@@ -196,7 +196,7 @@ const deleteFeedback = async (id) => {
   if (!confirm('确定要删除这条反馈吗？')) return
 
   try {
-    const response = await fetch(`http://localhost:3002/api/admin/feedback/${id}`, {
+    const response = await fetch(`/api/admin/feedback/${id}`, {
       method: 'DELETE'
     })
     const data = await response.json()
